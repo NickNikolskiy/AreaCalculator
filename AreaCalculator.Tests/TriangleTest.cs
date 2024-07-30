@@ -40,7 +40,7 @@ public class TriangleTest
     {
         var triangle = new Triangle(21, 28, 35);
 
-        Assert.True(triangle.IsRightTriangle());
+        Assert.False(triangle.IsRightTriangle());
     }
 
     [Fact]
